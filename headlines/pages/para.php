@@ -42,18 +42,18 @@
 
 <div class="row justify-content-md-center">
     	<div class="col-md-auto col-overlay-img">
-                <a class="img" href="../mrw" target="_top">
+                <a class="img" href="../global/mrw" target="_top">
                   <div class="img__overlay">GFS<br/>GEFS<br/>NAEFS</div>
                   <img src="../icons/global.png"/>
                 </a>
-                <div class="img-label"><a class="img-model-icon-lnks" href="../mrw/"  target="_top">Global Models<br>(Medium-Range Weather)</a></div>
+                <div class="img-label"><a class="img-model-icon-lnks" href="../global/mrw/"  target="_top">Global Models<br>(Medium-Range Weather)</a></div>
         </div>
 	<div class="col-md-auto col-overlay-img">
-                <a class="img" href="../srw/">
+                <a class="img" href="../regional/">
                   <div class="img__overlay">NAM<br/>NAM Nest<br>Hi-Res Windows<br>RAP HRRR<br>HREF SREF</div>
                   <img src="../icons/regional_hires.png"/>
                 </a>
-                <div class="img-label"><a class="img-model-icon-lnks" href="../srw/">Regional Models<br>(Short-Range Weather)</a></div>
+                <div class="img-label"><a class="img-model-icon-lnks" href="../regional/">Regional Models<br>(Short-Range Weather)</a></div>
         </div>
         <div class="col-md-auto col-overlay-img">
                 <a class="img" href="cyclones/">
