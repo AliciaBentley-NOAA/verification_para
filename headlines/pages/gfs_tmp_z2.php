@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>GEFS</title>
+<title>ACC</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="functions.js"></script>
@@ -16,19 +16,24 @@
 
 <!-- Head element -->
 <div class="page-top">
-	<span><a style="color:#ffffff">Global Model Anomaly Correlation Coefficient (Last 31 days)</a></span>
+	<span><a style="color:#ffffff">GFS 2-m Temperature Root Mean Square Error and Bias (Last 90 days)</a></span>
 </div>
 
 <!-- Image -->
 <div id="page-map">
-	<image name="map" style="width:100%" src="https://www.emc.ncep.noaa.gov/users/verification/global/gfs/para/atmos/headline/images/evs.global_det.acc.hgt_p500.last31days.timeseries_valid00z_f120.g004_nhem.png">
+        <image name="map" style="width:100%" src="https://www.emc.ncep.noaa.gov/users/verification/global/gfs/para/atmos/headline/images/evs.global_det.gfs.rmse.tmp_z2.last90days.timeseries_valid00z_f024f072f120f240.g104_buk_conus.png">
+	<span><b>Description:</b> Root Mean Square Error (RMSE) is a measure of the <u>difference between model forecasts and observations</u>. The closer that a point is to an RMSE value of 0.0, the more accurate the contiguous U.S. (e.g. CONUS) 2-m temperature forecast that was valid on that particular date. Valid dates are shown along the x-axis. Different colored lines represent different forecast lengths, according to the key. The shorter the forecast length (Day 1 = 24 hours, Day 3 = 72 hours, etc.), the better you would expect the forecast to be. Day 1 forecasts, for example, are usually the closest to 0.0 (i.e., perfect). </span>
+<br>
+<br>
+        <image name="map" style="width:100%" src="https://www.emc.ncep.noaa.gov/users/verification/global/gfs/para/atmos/headline/images/evs.global_det.gfs.me.tmp_z2.last90days.timeseries_valid00z_f024f072f120f240.g104_buk_conus.png">
+        <span><b>Description:</b> Mean Error (i.e., Bias) is a measure of the <u>average difference between model forecasts and observations</u>. If the bias line is above 0.0, it means that contiguous U.S. 2-m temperature forecasts valid on that day were too hot. If the bias line is below 0.0, it means that contiguous U.S. 2-m temperature forecasts valid on that date were too cold. If the bias line is equal to 0.0, if means that contiguous U.S. 2-m tempeature forecasts were neither too hot nor too cold.  Valid dates are shown along the x-axis. Different colored lines represent different forecast lengths, according to the key.</a></span>
 </div>
 
 <!-- /Footer -->
-<div class="page-footer">
-        <span><b>Description:</b> An Anomaly Correlation Coefficient (ACC) score of 1.0 on a particular valid date indicates that <u>the forecast made 5 days prior to that valid date</u> was highly accurate (i.e., essentially perfect) across the Northern Hemisphere. The closer the GFS (black line) is to an ACC score of 1.0 across the time series, the more accurate the GFS's <u>5-day forecasts valid during the last 31 days</u> were. Colored lines represent other weather models, according to the key. The first number to the right of a weather model's name is that weather model's average ACC score during the last 31 days. The number of "days" written to the right of the average ACC score represents the number of 00Z forecasts included in the 31-day average. This number may be less than 31 if any 5-day forecasts valid during the last 31 days were missing.</span>
+<!--<div class="page-footer">
+        <span><b>Description:</b> An Anomaly Correlation Coefficient (ACC) score of 1.0 at a particular forecast lead time (i.e., forecast length) indicates that <u>forecasts of that length</u> were, on average, highly accurate (i.e., essentially perfect) across the Northern Hemisphere. The closer a colored bar is to an ACC score of 1.0 at a particular forecast lead time, the more accurate that model's forecasts were <u>at that particular lead time</u>. Colored bars represent the GFS, GEFS, and NAEFS, according to the key. A downward trend in the colored bars from left to right indicates that model forecasts become less accurate as you make longer forecasts.</span>
 </div>
-
+-->
 
 <script type="text/javascript">
 // Get the modal

@@ -22,7 +22,8 @@
 	
 	<!--<link rel="stylesheet" href="emc.css" media="all">-->
 	<link rel="stylesheet" href="../../emc-footer.css" media="all">
-	<link rel="stylesheet" href="../../verif_update.css" media="all">
+	<!--link rel="stylesheet" href="../../verif_update.css" media="all"-->
+        <link rel='stylesheet' href="./verif_update_test.css" media="all">
 </head>
 
 <body>
@@ -56,7 +57,7 @@
         </div>
         <div class="col-md-auto col-overlay-img">
                 <a class="img" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/acc_archive/" target="_top">
-                  <div class="img__overlay">Global Models<br/>(Archive)</div>
+                  <div class="img__overlay">Global Models<br/>Archive</div>
                   <img src="https://emc.ncep.noaa.gov/users/verification/global/gfs/ops/grid2grid_all_models/acc_archive/images/acc_valid00Z_HGT_P500_fhr120_G002NHX_202301.png"/>
                 </a>
                 <div class="img-label"><a class="img-model-icon-lnks" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/acc_archive/" target="_top">Anomaly Correlation<br>Coefficient (Archive)</a></div>
@@ -67,20 +68,27 @@
                   <img src="https://emc.ncep.noaa.gov/users/verification/global/gfs/ops/annual_long_term/images/annual_useful_fcst_days_acc06_gfs_valid00Z_HGT_P500_G002NHX.png"/>
                 </a>
                 <div class="img-label"><a class="img-model-icon-lnks" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/gfs_useful_day/" target="_top">GFS Useful Forecast<br>Day (1989–2022)</a></div>
+	</div>
+        <div class="col-md-auto col-overlay-img">
+                <a class="img" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/gfs_tmp_z2/" target="_top">
+                  <div class="img__overlay">GFS</br>2-m Temperature<br>(Last 90 days)</div>
+                  <img src="https://www.emc.ncep.noaa.gov/users/verification/global/gfs/para/atmos/headline/images/evs.global_det.gfs.rmse.tmp_z2.last90days.timeseries_valid00z_f024f072f120f240.g104_buk_conus.png">/>
+                </a>
+                <div class="img-label"><a class="img-model-icon-lnks" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/gfs_tmp_z2/" target="_top">GFS 2-m Temperature<br>(Last 90 days)</a></div>
         </div>
+        <div class="col-md-auto col-overlay-img">
+                <a class="img" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/gfs_precip/" target="_top">
+                  <div class="img__overlay">GFS</br>Precipitation</br>(2002–2022)</div>
+                  <img src="https://www.emc.ncep.noaa.gov/users/verification/headlines/gfs_precip/annual_gfs_precip_fss_10mm.png"/>
+                </a>
+                <div class="img-label"><a class="img-model-icon-lnks" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/gfs_precip/" target="_top">GFS Precipitation<br>(2002–2022)</a></div>
+	</div>
         <div class="col-md-auto col-overlay-img">
                 <a class="img" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/acc_dieoff/" target="_top">
                   <div class="img__overlay">GFS vs. GEFS</br>vs. NAEFS<br/>(1/1/22–12/31/22)</div>
                   <img src="https://www.emc.ncep.noaa.gov/users/verification/headlines/acc_dieoff/NH_H500_PAC_2022.png"/>
                 </a>
                 <div class="img-label"><a class="img-model-icon-lnks" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/acc_dieoff/" target="_top">ACC Score Die-off Plot<br>(1/1/22–12/31/22)</a></div>
-        </div>
-        <div class="col-md-auto col-overlay-img">
-                <a class="img" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/gfs_precip/" target="_top">
-                  <div class="img__overlay">GFS</br>Precipitation</br>Scores<br/>(2002–2022)</div>
-                  <img src="https://www.emc.ncep.noaa.gov/users/verification/headlines/gfs_precip/annual_gfs_precip_fss_10mm.png"/>
-                </a>
-                <div class="img-label"><a class="img-model-icon-lnks" href="https://www.emc.ncep.noaa.gov/users/verification/headlines/global/mrw/gfs_precip/" target="_top">GFS Precipitation<br>Scores (2002–2022)</a></div>
         </div>
 </div>
 
